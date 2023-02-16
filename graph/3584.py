@@ -1,6 +1,7 @@
 import sys
 from collections import defaultdict
 input = sys.stdin.readline
+import math
 
 T = int(input())
 
@@ -32,7 +33,7 @@ for test_case in range(1,T+1):
         i = len(A_parent) - len(B_parent)
     else:
         j = len(B_parent) - len(A_parent)
-    
+
     while A_parent[i]!=B_parent[j]:
         i+=1
         j+=1
