@@ -34,5 +34,4 @@
 
 #     print(f'#{test_case} {result}')
 
-import math
-math.perm(5,2)
+print(*[1, 3, 4, 5, 5], sep='\n')
