@@ -29,3 +29,11 @@ while q:
                 heapq.heappush(q, (distance[next_node], next_node))
 
 print(distance[K])
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> e70783d44df237dacb1c3267529371b9aebe9c9d

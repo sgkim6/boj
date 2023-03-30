@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       
+        function max(a,b){
+            return a>b ? a : b
+        }
+
+        function printName(name){
+            alert('hello!' + name)
+        }
+
+        function getArea(r){
+            alert(Math.PI * r * r)
+        }
+
+        function reverse(flag){
+            return !flag
+        }
+
+        function sum(arr){
+            var result = 0
+            for(var i in arr){
+                result += i
+            }
+            return result
+        }
+
+        function loopString(msg, count){
+            for(var i = 0; i<count; i++)
+                console.log(msg)
+        }
+
+        function calc(a,b,op){
+            alert(op=='+'?a+b:op=='-'?a-b:op=='*'?a*b:a/b)
+        }
+
+        function getLength(str){
+            return str.length
+        }
+
+        function showAlert(msg){
+            alert(msg)
+        }
+
+        function absSum(x,y){
+            return Math.abs(x) + Math.abs(y)
+        }
+
+        //리터럴 방식의 객체 생성
+        function Circle(r){
+            this.r = r
+            this.getCurcum = function() {
+                return 2*Math.PI*r
+            }
+            this.getArea = function() {
+                return Math.PI*r*r
+            }
+        }
+
+        var circle1 = new Circle(5)
+        var circle2 = new Circle(10)
+        var circle3 = new showAlert(msg)
+        
+        alert(circle1.getArea())
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
