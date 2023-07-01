@@ -1,0 +1,21 @@
+
+{
+    "Name": "김승규",
+
+    "Track": "JAVA(전공)",
+
+    "Position": "Back-end",
+
+    "Skills": ["Spring Boot", "Django", "Vue", "MySQL"],
+
+    "Interesting": ["Game","Climbing","Piano","Problem Solving"],
+
+    "MBTI": "ISTP",
+
+    "Message": "새로운 것에 대해 끊임없는 호기심을 가지고 공부하는 개발자 김승규 입니다. 열정 넘치는 팀원분들과 함께 꼭 멋진 프로젝트를 완성해 보고 싶습니다." 
+
+    /*
+    "Keywords": ["로봇", "효율성", "논리", "강철멘탈", "사랑꾼"]
+    */
+}
+
